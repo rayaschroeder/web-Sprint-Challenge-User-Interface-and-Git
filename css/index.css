@@ -56,6 +56,28 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+header {
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-right: 40px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: black;
+}
+
+#header-img {
+  margin-top: 40px;
+}
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -72,6 +94,7 @@ p {
 }
 
 .top-content {
+    margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -143,4 +166,44 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+#box-1 {
+  background-color: teal;
+}
+
+#box-2 {
+  background-color: gold;
+}
+
+#box-3 {
+  background-color: cadetblue;
+}
+
+#box-4 {
+  background-color: coral;
+}
+
+#box-5 {
+  background-color: crimson;
+}
+
+#box-6 {
+  background-color: forestgreen;
+}
+
+#box-7 {
+  background-color: darkorchid;
+}
+
+#box-8 {
+  background-color: hotpink;
+}
+
+#box-9 {
+  background-color: indigo;
+}
+
+#box-10 {
+  background-color: dodgerblue;
 }
