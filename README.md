@@ -34,13 +34,29 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+I would say that semantic HTML gives meaning to an HTML file by using meaningful tags. Some semantic tags include <header>, <body>, <section>, <h1>, <p>, and <button>. These tags can help divide up the HTML document into different sections, and in each of those sections, the developer can see the different components in an organized way.
+
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+'Display: block;' styles the elements on top of one another, or in separate lines, as in a column. 'Display: inline;' styles the elements side by side to one another, on the same line, as in a row. Another difference is that with 'display: inline;' the width and height values are not respected, while with 'display: block;' the width and height values are respected.
+
 
 3. What are the 4 areas of the box model?
 
+Content edge, padding edge, border edge, margin edge.
+
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+It works on the cross-axis, which runs perpendicular to the main-axis.
+
+
 5. Explain why git is valuable to a team of developers.
+
+Git is valuable to a team of developers because it allows each developer to have their own branch, which is a copy of the main repository but that doesn't affect the main repository UNLESS the changes a developer makes in their branch is merged into the main repository. So each developer can work independently on the same project without altering that project until their changes have been approved. Another benefit is that Git allows developers to save different versions of their code "in the cloud." This means if the locally saved code files were accidently damaged or deleted, a saved copy would still exist in the cloud. Also, the different versions serve as a "timeline" that allow you to revisit previous versions incase you make a mistake and want to restore an older, functional version of your code.
+
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

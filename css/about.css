@@ -86,11 +86,32 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+    padding-bottom: 20px;
 }
 
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+#top-content {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+#top-content h2 {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#top-content p {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .top-content {
@@ -99,40 +120,16 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
 }
 
-.top-content .text-container {
+.top-content .text-container{
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
 
-.middle-content {
-    margin-bottom: 20px;
+.text-container {
     border-bottom: 1px dashed black;
-}
-
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .bottom-content {
@@ -168,42 +165,21 @@ footer nav a {
     text-decoration: none;
 }
 
-#box-1 {
-  background-color: teal;
+button {
+  background-color: white;
+  border-radius: 8px;
+  border: 2px solid black;
+  padding: .5em 1.5em;
+  font-family: 'Roboto';
+  font-size: 16px;
 }
 
-#box-2 {
-  background-color: gold;
+#imgs {
+  margin-top: 40px;
+  padding-bottom: 10px;
 }
 
-#box-3 {
-  background-color: cadetblue;
-}
-
-#box-4 {
-  background-color: coral;
-}
-
-#box-5 {
-  background-color: crimson;
-}
-
-#box-6 {
-  background-color: forestgreen;
-}
-
-#box-7 {
-  background-color: darkorchid;
-}
-
-#box-8 {
-  background-color: hotpink;
-}
-
-#box-9 {
-  background-color: indigo;
-}
-
-#box-10 {
-  background-color: dodgerblue;
+#imgs-2 {
+  margin-top: 60px;
+  padding-bottom: 10px;
 }
